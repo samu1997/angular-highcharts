@@ -30,7 +30,19 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/highcharts/highstock.js",
+              "./node_modules/highcharts/highcharts-more.js",
+              "./node_modules/highcharts/modules/sunburst.js",
+              "./node_modules/highcharts/modules/drilldown.js",
+              "./node_modules/highcharts/modules/treemap.js",
+              "./node_modules/highcharts/modules/heatmap.js",
+              "./node_modules/highcharts/modules/exporting.js",
+              "./node_modules/highcharts/modules/broken-axis.js",
+              "./node_modules/highcharts/modules/series-label.js",
+              "./node_modules/highcharts/modules/export-data.js",
+              "./node_modules/highcharts/modules/accessibility.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +135,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularHighcharts"
+    }
+  },
+  "defaultProject": "angularHighcharts",
+  "cli": {
+    "analytics": "ac1b41cf-5bbc-4c3b-a863-c50047f333ad"
+  }
 }
